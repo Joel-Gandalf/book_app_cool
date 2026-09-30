@@ -1,15 +1,19 @@
 
-export default function App(){
+import { Routes, Route } from 'react-router'
 
+import Home from './pages/Home'
+import BookList from './pages/BookList'
+import BookDetails from './pages/BookDetails'
+import NotFound from './pages/NotFound'
+
+export const App = () => {
   return (
-    <>
-      <div className="flex min-h-screen items-center justify-center bg-slate-900 text-white">
-      <h1 className="text-3xl font-bold underline text-sky-400">
-        ¡Tailwind CSS está funcionando!
-      </h1>
-    </div>
-    </>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/books" element={<BookList />} />
+        <Route path="/books/:bookId" element={<BookDetails />} />
+        <Route path="*" element={<NotFound />} />
+    </Routes>
   )
 }
-
 
