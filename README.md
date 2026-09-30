@@ -69,7 +69,7 @@ npm run lint: Runs the linter to inspect code quality.
 ## 🤝 Authors
 Developed collaboratively during the Frontend Bootcamp by:
 
-Joel - @Joel-Gandalf
+Joel - @Joel-Gandalf | 
 Berta - @bertagonzalezgu
 
 Teammate
