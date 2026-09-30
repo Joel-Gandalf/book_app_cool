@@ -41,7 +41,7 @@ Follow these steps to clone and run the project on your local machine:
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/Joel-Gandalf/book_app_cool.git](https://github.com/Joel-Gandalf/book_app_cool.git)
-cd book_app_cool
+cd frontend
 ```
 
 ### 2. Install dependencies
