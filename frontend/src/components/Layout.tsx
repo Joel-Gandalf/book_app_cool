@@ -1,4 +1,5 @@
-import { Outlet } from 'react-router';
+import { Outlet} from 'react-router';
+import { Footer } from './Footer';
 import { NavBar } from './NavBar';
 
 export const Layout = () => {
@@ -12,8 +13,8 @@ export const Layout = () => {
         <Outlet />
       </main>
 
-      <footer>
-      </footer>
-    </div>
+    <Footer/>
+
+    </>
   )
 }
